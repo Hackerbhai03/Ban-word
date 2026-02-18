@@ -18,13 +18,13 @@ I delete messages with Banword and restrict users who have Banword .
 """
 
 START_BUTTONS = InlineKeyboardMarkup([
-    [InlineKeyboardButton("• ᴀᴅᴅ ᴍᴇ •", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-    [InlineKeyboardButton("• ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ •", callback_data="show_help")],
+    [InlineKeyboardButton("✙ ᴧᴅᴅ ᴍᴇ ᴛσ ʏσᴜʀ ᴄʜᴧᴛ ✙", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+    [InlineKeyboardButton("ʜєʟᴘ ᴧηᴅ ᴄσϻϻᴧηᴅ", callback_data="show_help")],
     [
-        InlineKeyboardButton("• ʟᴏɢs •", url="https://t.me/networkxlog"),
-        InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇ •", url="https://t.me/aashikteam")
+        InlineKeyboardButton("sυᴘᴘσʀᴛ", url="https://t.me/kanhasworld"),
+        InlineKeyboardButton("υᴘᴅᴀᴛᴇ", url="https://t.me/about_kanhaa")
     ],
-    [InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url="https://t.me/shivang_mishra_op")]
+    [InlineKeyboardButton("ᴅᴇᴠᴇʟσᴘᴇʀ", url="https://t.me/Oyekanhaa")]
 ])
 
 PRIVATE_START_BUTTON = InlineKeyboardMarkup([
